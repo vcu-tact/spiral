@@ -1,4 +1,7 @@
 def spiralize(number):
-    return_value = 1
+    
+    x = (number - 1)/2
 
-    return return_value
+    diagonalSum = (3 + 2 * x * (8 * x * x + 15 * x + 13))/3
+
+    return diagonalSum
