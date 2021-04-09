@@ -9,9 +9,9 @@ def spiralize(number):
 
 def main():
 
-    diag = spiralize(501)
+    dSum = spiralize(501)
     
-    print(diag)
+    print(dSum)
 
 
 main()
