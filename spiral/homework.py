@@ -13,5 +13,5 @@ def main():
     
     print(dSum)
 
-
-main()
+if __name__ == "__main__":
+    main()
