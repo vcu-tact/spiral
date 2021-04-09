@@ -4,4 +4,4 @@ def spiralize(number):
 
     diagonal = (3 + 2 * x * (8 * x * x + 15 * x + 13)) / 3
 
-    return diagonal
+    return int(diagonal)
