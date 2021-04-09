@@ -14,3 +14,6 @@ def main():
     dSum = spiralize(501)
     
     print(dSum)
+
+
+main()
