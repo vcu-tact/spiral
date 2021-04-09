@@ -1,9 +1,11 @@
 def spiralize(number):
 
-    x = (number - 1) / 2
+    if number == 1:
+        diagonal = 1
+    else:    
+        x = (number - 1) / 2
+        diagonal = (3 + 2 * x * (8 * x * x + 15 * x + 13)) / 3
+    return int(diagonal)
 
-    diagonal = (3 + 2 * x * (8 * x * x + 15 * x + 13)) / 3
-    
-    intSum = int(diagonal)
-
-    return intSum
+if __name__ == "__main__":
+    print(spiralize(501))
