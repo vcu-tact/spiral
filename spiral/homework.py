@@ -4,14 +4,14 @@ def spiralize(number):
 
     n = (3 + 2 * x * (8 * x * x + 15 * x + 13)) / 3
 
-    return n
+    return int(n)
 
 
 def main():
 
-    dSum = spiralize(501)
+    diag = spiralize(501)
     
-    print(dSum)
+    print(diag)
 
 
 main()
