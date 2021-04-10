@@ -10,8 +10,9 @@ def spiralize(number):
 def main():
 
     dSum = spiralize(501)
-    
+
     print(dSum)
+
 
 if __name__ == "__main__":
     main()
